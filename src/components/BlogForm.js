@@ -29,9 +29,9 @@ const BlogForm = () => {
                 <textarea className="form-control" placeholder="Enter Body" id="body" value={body} onChange={(e) => setBody(e.target.value)}></textarea>
                 </div>
             <button type="submit" className="btn btn-primary">Save Blog</button>
-            <p>{title}</p>
+            {/* <p>{title}</p>
             <p>{author}</p>
-            <p>{body}</p>
+            <p>{body}</p> */}
         </form>
     )
     
